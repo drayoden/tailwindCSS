@@ -1,0 +1,23 @@
+{
+  "name": "tailwindCSS",
+  "version": "1.0.0",
+  "description": "* made of utility classes * lower-level than bootstrap or materialize * no 'set' look or feel like bootstrap or materialize",
+  "main": "index.js",
+  "scripts": {
+    "buildcss": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drayoden/tailwindCSS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drayoden/tailwindCSS/issues"
+  },
+  "homepage": "https://github.com/drayoden/tailwindCSS#readme",
+  "dependencies": {
+    "tailwindcss": "^1.5.2"
+  }
+}
