@@ -1,4 +1,5 @@
-#### tailwind CSS - yt; the net ninja - July 6, 2020
+#### tailwind CSS - yt; the net ninja - July 6, 2020 
+* code here: https://github.com/iamshaunjp/tailwind-tutorial/blob/lesson-2/public/index.html
 * made of utility classes
 * lower-level than bootstrap or materialize
 * no 'set' look or feel like bootstrap or materialize
