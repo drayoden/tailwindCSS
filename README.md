@@ -6,6 +6,13 @@
 ---
 * install:
     * install node.js
+        * update node:
+            ```
+            npm cache clean -f
+            npm install -g n
+            n stable | n latest | n [version.number]
+            ```
+
     * got to project folder - `npm init -y` - creates package.json, tracks dependencies
     * project folder - `nmp install tailwindcss` - creates 'node_modules' folder. not messed with here
     * create public/src folders
@@ -15,8 +22,8 @@
         @tailwind components;
         @tailwind utilities;
         ```
-    * create npm script `build-css` in package.json file (see file) - can be used to 'compile'  src/sytles.css into public/styles.css
-    * run script above `npm run build-css` - creates new public/sytles.css
+    * create npm script `buildcss` in package.json file (see file) - can be used to 'compile'  src/sytles.css into public/styles.css
+    * run script above `npm run buildcss` - creates new public/sytles.css
 
 
 
