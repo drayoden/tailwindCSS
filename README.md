@@ -10,9 +10,9 @@
     * project folder - `nmp install tailwindcss` - creates 'node_modules' folder. not messed with here
     * create public/src folders
     * create src/styles.css and insert below:
-        `@tailwind base;`
-        `@tailwind components;`
-        `@tailwind utilities;`
+        ```@tailwind base;
+        @tailwind components;
+        @tailwind utilities;```
     * create npm script `build-css` in package.json file (see file) - can be used to 'compile'  src/sytles.css into public/styles.css
     * run script above `npm run build-css` - creates new public/sytles.css
 
