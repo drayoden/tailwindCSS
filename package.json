@@ -4,7 +4,7 @@
   "description": "* made of utility classes * lower-level than bootstrap or materialize * no 'set' look or feel like bootstrap or materialize",
   "main": "index.js",
   "scripts": {
-    "buildcss": "tailwindcss build src/styles.css -o public/styles.css"
+    "buildcss": "tailwindcss build src/style.css -o public/style.css"
   },
   "repository": {
     "type": "git",

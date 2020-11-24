@@ -3,20 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
-    <div>
-        <div>
-            <nav>
-                <div>
-                    <h1>
-                        <a href="/">Food Ninja</a>
-                    </h1>
-                </div>
-            </nav>
+<body class="bg-blue-700">
+    
+
+    <div class="container">
+        <!-- buttons -->
+        <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 rounded">
+            Release the Kraken
+        </button>
+
+        <button class="bg-blue-800 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+            Release the Hounds
+        </button>
+
+        <!-- alert -->
+        <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rouded relative my-5" role="alert">
+            <strong class="font-bold">Alert!</strong>
+            <span class="block sm:inline">Please update your googlefranz!</span>
         </div>
+   
+    
     </div>
     
+    <!-- card -->
+    <div class="max-w-sm mx-auto flex p-6 bg-white rounded-lg shadow-xl">
+        <div class="flex-shrink-0">
+            <img src="img.png" alt="" class="h-12.w-12 ">
+        </div>
+        <div class="ml-6 pt-1">
+            <h4 class="text-xl text-gray-900">Hex50 LLC</h4>
+            <p class="text-base text-gray-600">You have a message!</p>
+        </div>
+
+    </div>
+
 </body>
 </html>
