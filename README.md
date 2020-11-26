@@ -27,6 +27,7 @@
     * create tailwind config file: `npx tailwindcss init --full` -- creates tailwind.config.js will all values --  can be user alter/create css properties  -- recompile and you have new or altered properties.
     * better way to alter/create properties, create blank tailwind.config.js: `npx tailwindcss init`-- blank file -- alter/create properties (theme) in the 'extend' object.
     * NOTE: tailwindcss code extension does not work correctly unless you have a tailwind.config.js file.
+    * custom font: add @import (google fonts) to public/styles.css, register the font in tailwind.config.js (Nunito), recompile.
     
 
 
