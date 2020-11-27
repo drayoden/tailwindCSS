@@ -29,6 +29,7 @@
     * NOTE: tailwindcss code extension does not work correctly unless you have a tailwind.config.js file.
     * custom font: add @import (google fonts) to public/styles.css, register the font in tailwind.config.js (Nunito), recompile.
     * @apply directive -- group css classes together into a single selector -- see the .card and .badge selectors in public/styles.css
+    * svg icons: heroicons.dev
     
 
 
