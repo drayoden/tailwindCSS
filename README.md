@@ -14,7 +14,7 @@
             ```
 
     * got to project folder - `npm init -y` - creates package.json, tracks dependencies
-    * project folder - `nmp install tailwindcss` - creates 'node_modules' folder. not messed with here
+    * project folder - `npm install tailwindcss autoprefixer postcss` - creates 'node_modules' folder. not messed with here
     * create public/src folders
     * create src/styles.css and insert below:
         ```
