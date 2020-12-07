@@ -31,6 +31,9 @@
     * @apply directive -- group css classes together into a single selector -- see the .card and .badge selectors in public/styles.css
     * svg icons: heroicons.dev
 ---
+* navbar tut: https://github.com/justalever/tailwind-navbar
+---
+
 
 
 
