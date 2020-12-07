@@ -24,13 +24,17 @@
         ```
     * create npm script `buildcss` in package.json file (see file) - can be used to 'compile'  src/sytles.css into public/styles.css
     * run script above `npm run buildcss` - creates new public/sytles.css
-    * create tailwind config file: `npx tailwindcss init --full` -- creates tailwind.config.js will all values --  can be user alter/create css properties  -- recompile and you have new or altered properties.
+    * create tailwind config file: `npx tailwindcss init --full` -- creates tailwind.config.js will all values --  user created/altered css properties  -- recompile and you have new or altered properties.
     * better way to alter/create properties, create blank tailwind.config.js: `npx tailwindcss init`-- blank file -- alter/create properties (theme) in the 'extend' object.
     * NOTE: tailwindcss code extension does not work correctly unless you have a tailwind.config.js file.
     * custom font: add @import (google fonts) to public/styles.css, register the font in tailwind.config.js (Nunito), recompile.
     * @apply directive -- group css classes together into a single selector -- see the .card and .badge selectors in public/styles.css
     * svg icons: heroicons.dev
 ---
+* branch -- sandbox -- just messing around
+  * navbar -- https://github.com/justalever/tailwind-navbar
+---
+
 
 
 
