@@ -19,7 +19,7 @@
   "homepage": "https://github.com/drayoden/tailwindCSS#readme",
   "dependencies": {
     "autoprefixer": "^10.0.2",
-    "postcss": "^8.1.10",
+    "postcss": "^8.2.10",
     "tailwindcss": "^2.0.1"
   }
 }
